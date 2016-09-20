@@ -1,0 +1,48 @@
+body {
+  font-family: "\5FAE\8F6F\96C5\9ED1", "\5B8B\4F53", "\9ED1\4F53", "Lucida Grande", "Verdana", "Tahoma", "Lucida", "Arial", "Helvetica", "sans-serif";
+  -webkit-overflow-scrolling: touch;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
+a {
+  text-decoration: none;
+}
+i {
+  font-style: normal;
+}
+a:hover {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.clear {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide {
+  display: none;
+}
+img {
+  vertical-align: top;
+}
+input {
+  font-family: "\5FAE\8F6F\96C5\9ED1", "\5B8B\4F53", "\9ED1\4F53", "Lucida Grande", "Verdana", "Tahoma", "Lucida", "Arial", "Helvetica", "sans-serif";
+  font-size: inherit;
+}
+/*************************************************************/

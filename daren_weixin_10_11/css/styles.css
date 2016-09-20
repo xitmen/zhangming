@@ -1,0 +1,140 @@
+@import "main.css";
+body{font-size:.5rem}
+.banner{
+    width:16rem; height:6.4rem;
+    background-position:center top;
+    background-repeat:no-repeat;
+    background-size:contain; padding-top:.2rem;
+}
+.banner .user_img{
+    width:4rem; height:4rem; position:relative;
+    background-image:url("../img/user_head.png");
+    background-size:contain; background-position:center;
+    background-repeat:no-repeat; margin:0 auto;
+}
+.banner .user_img img{
+    width:3.7rem; height:3.7rem; border-radius:50%;
+    position:absolute; top:.15rem; left:.15rem;
+}
+.banner p{text-align:center; font-size:.8rem; color:#fff;}
+.banner div.tips{text-align:center; padding-top:.3rem}
+.banner div.tips span{
+    color:#dfdfdf; border:.05rem solid #dfdfdf;
+    border-radius:.2rem; padding:.1rem .4rem; margin:0 .3rem;
+}
+.about{
+    background-image:url("../img/bg.jpg");
+    background-position:left top;
+    background-repeat:no-repeat;
+    width:15.5rem; height:7rem; margin:.3rem auto;
+    background-size:contain;
+    position:relative;
+}
+.about img{
+    height:6.55rem; width:8rem; position:absolute;
+    top:.05rem; left:.05rem;
+}
+.about p{
+    width:10.5rem; height:4.2rem;
+    background-image:url("../img/red-tips.png");
+    position:absolute;
+    background-position:left top;
+    background-repeat:no-repeat;
+    background-size:contain;
+    bottom:.4rem; right:-.1rem; line-height:1.4rem;
+    color:#fff; padding:.5rem; padding-top:.6rem;
+    overflow-y:auto;
+}
+.about p a{color:#ffed29}
+.img-box{
+    background-image:url("../img/bg1.jpg");
+    background-position:left top;
+    background-repeat:no-repeat;
+    width:15.5rem; height:7rem; margin:.3rem auto;
+    background-size:contain; padding-left:.5rem;
+    position:relative; padding-bottom:.5rem;
+}
+.img-content{
+    width:15rem; height:4.5rem; position:relative;
+    overflow:hidden;
+}
+.img-box h3{text-align:center; line-height:1.75rem; font-weight:normal; color:#9c9c9c}
+.img-box .img-list{
+    width:14.98rem; position:absolute; top:0; left:0;
+}
+.img-box .img-list img{width:4.85rem; height:4.5rem}
+.img-desc{text-align:center; margin-top:.6rem}
+.img-desc i{display:inline-block; margin:0 .1rem; width:.3rem; height:.3rem; background-color:#d8d8d8; border-radius:50%;}
+.img-desc i.on{background-color:#ea553f}
+
+.result{
+    background-color:#f4f4f4;
+    background-image:url("../img/line.jpg");
+    background-repeat: repeat-x;
+    background-position:left 1rem;
+}
+.result h3{background-color:#f4f4f4; color:#9c9c9c; text-align:center; height:2.5rem; line-height:2.5rem; width:4rem; margin:0 auto;}
+.img-block{
+    background-image:url("../img/bg2.jpg");
+    background-position:left bottom;
+    background-repeat:no-repeat;
+    width:16rem; padding-bottom:.8rem;
+    background-size:contain;
+    border-bottom:.05rem solid #d1d0d5;
+}
+.img-block h4{
+    height:2rem; line-height:2rem; color:#333; text-align:left;
+    font-size:.8rem; font-weight:normal; padding-left:.5rem;
+}
+.img-block h4 em{font-size:.7rem; color:#d1d0d5; font-style:normal;
+    float: right; padding-right:.5em}
+.img-block{text-align:center; background-color:#fff;}
+.img-block .one img{width:15rem;}
+.img-block .three img{
+    width:4.85rem; height:4.5rem;
+}
+.left-list,.right-list{
+    width:7.6rem;
+}
+.left-list{margin:.2rem; float:left}
+.right-list{ margin:.2rem; float:right}
+.daren-list{
+    width:7rem; box-shadow:0 0 .3rem #ccc;
+    padding:.2rem; margin-bottom:.5rem;
+}
+.daren-list img{width:7rem;}
+.daren-list h4{
+    line-height:1.5rem; font-weight:normal; font-size:.8rem;
+    border-bottom:.01rem solid #9c9c9c;
+}
+.daren-list h4 em{font-style:normal; color:#f15843; float:right; background-image:url("../img/eye.jpg");
+    background-repeat:no-repeat; background-size:1rem .5rem;
+    background-position:left center; font-size:.5rem; padding-left:.9rem;
+}
+.daren-list h5{
+    font-weight:normal;
+    padding:.3rem 0;
+}
+.daren-list h5 span{
+    color:#dfdfdf; border:.05rem solid #dfdfdf;
+    border-radius:.2rem; padding:.1rem .3rem; margin:0 .1rem;
+}
+.img-show{
+    position:absolute; width:16rem; height:100%; top:0; left:0;
+    overflow:hidden;
+}
+.img-show .img-list{
+    position:relative; width:16rem; height:100%;
+}
+.img-show .img{
+    width:16rem; height:100%;
+    float:left; position:relative;
+}
+.img-show .img img{
+    width:100%; height:100%;
+}
+.img-show p.tips{
+    position:absolute; left:0; bottom:0; padding:.5rem;
+    width:15rem; line-height:1rem; color:#fff;
+    background-color:rgba(0,0,0,.5); z-index:2;
+}
